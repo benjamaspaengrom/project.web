@@ -1,0 +1,287 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+p.bio {
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    height: 2px;
+    background-color: rgb(28, 91, 230);
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+img.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+}
+
+h1.name {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+span.slogan {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgba(51, 51, 51, 0.7);
+    margin-bottom: 35px;
+}
+
+.social-img ul {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.social-img ul li {
+    display: inline;
+    background: rgba(204, 204, 204, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 150ms ease-in-out;
+}
+.social-img ul li:hover {
+    background: #ccc;
+}
+
+h5 {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.work {
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-icons a {
+    color: #000;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+h1.ki {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.columns {
+    flex: 1 1 calc(50% - 15px);
+    max-width: calc(50% - 15px);
+}
+
+.work {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+
+.work img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.ki {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.bio {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.small-6.columns {
+    padding: 0 10px;
+}
+
+.work {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.work img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ki {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.bio {
+    font-size: 1em;
+    color: #666;
+}
+
+.nav a {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.info-table-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
